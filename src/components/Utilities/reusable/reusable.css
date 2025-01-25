@@ -1,0 +1,23 @@
+/* .starCard span {
+    font-size: 2px;
+} */
+
+.stars {
+    padding: 0 !important;
+    height: fit-content !important;
+    display: flex;
+    /* font-size: 12px; */
+}
+
+.start {
+    position: relative;
+    top: -9px;
+    height: 20px;
+    display: flex;
+    align-items: start;
+}
+
+.error-message {
+    height: 400px;
+    padding: 2% 0 0 2%;
+}

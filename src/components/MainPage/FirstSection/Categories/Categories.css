@@ -1,0 +1,108 @@
+.hover-menu {
+    position: absolute;
+    top: 0px;
+    left: 178px;
+    z-index: 2;
+    display: none;
+    background-color: white;
+    min-width: 756px !important;
+    height: 410px;
+    border-left: 1px solid gray;
+    border-radius: 4px;
+    /* display: flex; */
+}
+
+.hover-menu-flex {
+    display: flex;
+}
+
+.column {
+    color: gray;
+}
+
+/* .column link {
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+
+.hover-menu ul {
+    min-width: 100px;
+    padding: 0 10px;
+}
+
+.hover-menu ul div {
+    border-bottom: 1px solid gray;
+    min-width: 50px;
+    color: black;
+}
+
+
+.hover-menu ul div:hover {
+    color: #f68b1e;
+    cursor: pointer;
+}
+
+
+.hover-menu ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hover-menu ul li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+.mm a {
+    width: 200px !important;
+    cursor: pointer;
+}
+
+.mm:hover+.hover-menu {
+    display: block;
+    /* cursor: pointer; */
+}
+
+.hover-menu:hover {
+    display: block;
+}
+
+.right-arrow {
+    float: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hover-menu:hover {
+        display: none;
+    }
+
+    .mm:hover+.hover-menu {
+        display: none;
+        /* cursor: pointer; */
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+    .hover-menu:hover {
+        display: none;
+    }
+
+    .mm:hover+.hover-menu {
+        display: none;
+        /* cursor: pointer; */
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .hover-menu:hover {
+        display: none;
+    }
+
+    .mm:hover+.hover-menu {
+        display: none;
+        /* cursor: pointer; */
+    }
+}

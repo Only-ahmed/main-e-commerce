@@ -1,0 +1,241 @@
+.arrivals {
+    margin: 30px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.newArrival {
+    /* width: 300px; */
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #f68b1e;
+    border-radius: 6px 6px 0 0;
+}
+
+
+.cards2 {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0 0 6px 6px;
+}
+
+.cards-raw {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-card {
+    padding: 8px;
+    width: 185px;
+    border-radius: 6px;
+    height: fit-content;
+    /* background-color: red; */
+}
+
+.single-card:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+    /* width: 210px; */
+    /* background-color: red; */
+}
+
+.title {
+    font-size: 16px;
+}
+
+.newprice {
+    font-size: 19px;
+}
+
+.oldprice {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .newArrival {
+        /* width: 300px; */
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 6px;
+        font-size: 24px;
+        background-color: #f68b1e;
+        border-radius: 0px 0px 0 0;
+    }
+
+    .cards2 {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        border-radius: 0 0 6px 6px;
+        overflow: auto;
+    }
+
+    .cards-raw {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .single-card {
+        padding: 0px;
+        width: 148px;
+        border-radius: 6px;
+        height: fit-content;
+        /* background-color: red; */
+    }
+
+    .single-card img {
+        width: 130px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .newprice {
+        font-size: 12px !important;
+    }
+
+    .oldprice {
+        font-size: 11px !important;
+        text-decoration: line-through;
+    }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+    .newArrival {
+        /* width: 300px; */
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 6px;
+        font-size: 24px;
+        background-color: #f68b1e;
+        border-radius: 0px 0px 0 0;
+    }
+
+    .cards2 {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        border-radius: 0 0 6px 6px;
+        overflow: auto;
+    }
+
+    .cards-raw {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .single-card {
+        padding: 0px;
+        width: 148px;
+        border-radius: 6px;
+        height: fit-content;
+        /* background-color: red; */
+    }
+
+    .single-card img {
+        width: 130px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .newprice {
+        font-size: 12px !important;
+    }
+
+    .oldprice {
+        font-size: 11px !important;
+        text-decoration: line-through;
+    }
+}
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .newArrival {
+        /* width: 300px; */
+        /* height: 200px; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 6px;
+        font-size: 24px;
+        background-color: #f68b1e;
+        border-radius: 0px 0px 0 0;
+    }
+
+    .cards2 {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        border-radius: 0 0 6px 6px;
+        overflow: auto;
+    }
+
+    .cards-raw {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .single-card {
+        padding: 0px;
+        width: 158px;
+        border-radius: 6px;
+        height: fit-content;
+        /* background-color: red; */
+    }
+
+    .single-card img {
+        width: 150px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .newprice {
+        font-size: 14px !important;
+    }
+
+    .oldprice {
+        font-size: 12px !important;
+        text-decoration: line-through;
+    }
+}

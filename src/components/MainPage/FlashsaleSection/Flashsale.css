@@ -1,0 +1,374 @@
+.whole-fs {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.red-line {
+    width: 100%;
+    background-color: #e61601;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+}
+
+.red-line div {
+    font-size: 24px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.title-sale span {
+    padding: 0 8px;
+    color: #ffb972;
+}
+
+.seeAll {
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+
+.seeAll span {
+    padding: 0 6px;
+    font-size: 11px;
+}
+
+.link-seeAll {
+    text-decoration: none !important;
+}
+
+.cards {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 0 0 6px 6px;
+}
+
+.fs-single-card2 {
+    padding: 8px;
+    width: 185px;
+    border-radius: 6px;
+    height: fit-content;
+    margin: 5px 0;
+    /* background-color: red; */
+}
+
+.fs-single-card2:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+    /* width: 210px; */
+    /* background-color: red; */
+}
+
+.title {
+    font-size: 16px;
+    white-Space: nowrap;
+    overflow: hidden;
+    text-Overflow: ellipsis;
+}
+
+.newprice {
+    font-size: 19px;
+}
+
+.oldprice {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+/* .itemsleft {
+    /* padding: 1px 0; */
+/* }  */
+
+
+@media only screen and (max-width: 600px) {
+    .red-line {
+        position: relative;
+        width: 100%;
+        background-color: #e61601;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap !important;
+        color: white;
+        padding: 1px 4px;
+        border-radius: 0;
+    }
+
+    .red-line div {
+        font-size: 16px;
+    }
+
+    .seeAll {
+        font-size: 14px !important;
+        display: flex;
+        align-items: center;
+        color: white !important;
+        bottom: 25px;
+        /* left: 330px; */
+        right: 10px;
+        position: absolute;
+    }
+
+    .seeAll span {
+        padding: 0 2px;
+        font-size: 9px;
+    }
+
+    .dollar-sign {
+        position: absolute;
+        /* margin-top: 20px; */
+        left: 6px;
+        bottom: 12px;
+        font-size: 28px;
+    }
+
+    .title-sale {
+        width: 70%;
+        font-size: 18px !important;
+        margin-left: 35px;
+    }
+
+    .time-left {
+        margin: 0 0 0 35px;
+        font-size: 14px !important;
+    }
+
+    .cards {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 8px 0;
+        display: flex;
+        gap: 8px;
+        justify-content: start;
+        border-radius: 0 0 6px 6px;
+        overflow: auto;
+    }
+
+    .fs-single-card2 {
+        padding: 8px;
+        width: 148px;
+        border-radius: 6px;
+        height: fit-content;
+        margin: 0px 0;
+        /* margin-left: 100px !important; */
+        /* background-color: red; */
+        position: relative;
+    }
+
+    .fs-single-card2 img {
+        width: 140px;
+    }
+
+    .title {
+        font-size: 12px !important;
+    }
+
+    .newprice {
+        font-size: 16px !important;
+    }
+
+    .oldprice {
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+    .red-line {
+        position: relative;
+        width: 100%;
+        background-color: #e61601;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap !important;
+        color: white;
+        padding: 1px 4px;
+        border-radius: 0;
+    }
+
+    .red-line div {
+        font-size: 16px;
+    }
+
+    .seeAll {
+        font-size: 14px !important;
+        display: flex;
+        align-items: center;
+        color: white !important;
+        bottom: 25px;
+        /* left: 330px; */
+        right: 10px;
+        position: absolute;
+    }
+
+    .seeAll span {
+        padding: 0 2px;
+        font-size: 9px;
+    }
+
+    .dollar-sign {
+        position: absolute;
+        /* margin-top: 20px; */
+        left: 6px;
+        bottom: 12px;
+        font-size: 28px;
+    }
+
+    .title-sale {
+        width: 70%;
+        font-size: 18px !important;
+        margin-left: 35px;
+    }
+
+    .time-left {
+        /* position: relative; */
+        padding-right: 160px;
+        margin: 0 0 0 35px;
+        font-size: 16px !important;
+    }
+
+    .cards {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 8px 0;
+        display: flex;
+        gap: 8px;
+        justify-content: start;
+        border-radius: 0 0 6px 6px;
+        overflow: auto;
+    }
+
+    .fs-single-card2 {
+        padding: 8px;
+        width: 148px;
+        border-radius: 6px;
+        height: fit-content;
+        margin: 0px 0;
+        /* margin-left: 100px !important; */
+        /* background-color: red; */
+        position: relative;
+    }
+
+    .fs-single-card2 img {
+        width: 140px;
+    }
+
+    .title {
+        font-size: 12px !important;
+    }
+
+    .newprice {
+        font-size: 16px !important;
+    }
+
+    .oldprice {
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .red-line {
+        position: relative;
+        width: 100%;
+        background-color: #e61601;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap !important;
+        color: white;
+        padding: 1px 4px;
+        border-radius: 0;
+    }
+
+    .red-line div {
+        font-size: 16px;
+    }
+
+    .seeAll {
+        font-size: 14px !important;
+        display: flex;
+        align-items: center;
+        color: white !important;
+        bottom: 25px;
+        /* left: 330px; */
+        right: 10px;
+        position: absolute;
+    }
+
+    .seeAll span {
+        padding: 0 2px;
+        font-size: 9px;
+    }
+
+    .dollar-sign {
+        position: absolute;
+        /* margin-top: 20px; */
+        left: 6px;
+        bottom: 12px;
+        font-size: 28px;
+    }
+
+    .title-sale {
+        width: 70%;
+        font-size: 18px !important;
+        margin-left: 35px;
+    }
+
+    .time-left {
+        /* position: relative; */
+        padding-right: 160px;
+        margin: 0 0 0 35px;
+        font-size: 16px !important;
+    }
+
+    .cards {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 8px 0;
+        display: flex;
+        gap: 8px;
+        justify-content: start;
+        border-radius: 0 0 6px 6px;
+        overflow: auto;
+    }
+
+    .fs-single-card2 {
+        padding: 8px;
+        width: 168px;
+        border-radius: 6px;
+        height: fit-content;
+        margin: 0px 0;
+        /* margin-left: 100px !important; */
+        /* background-color: red; */
+        position: relative;
+    }
+
+    .fs-single-card2 img {
+        width: 160px;
+    }
+
+    .title {
+        font-size: 14px !important;
+    }
+
+    .newprice {
+        font-size: 16px !important;
+    }
+
+    .oldprice {
+        font-size: 13px !important;
+    }
+}
