@@ -18,17 +18,17 @@ const BabyProducts = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div>DIAPERING</div>
-                                {Categories.BabyProducts[0].DIAPERS?.map((item) => {
+                                {Categories.BabyProducts[0].DIAPERS?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
                             <ul>
                                 <div>BABY FEEDING</div>
-                                {Categories.BabyProducts[0].BABY_FEEDING?.map((item) => {
+                                {Categories.BabyProducts[0].BABY_FEEDING?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
@@ -36,17 +36,17 @@ const BabyProducts = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div>BATHING & SKIN CARE</div>
-                                {Categories.BabyProducts[0].BATHING_AND_SKIN_CARE?.map((item) => {
+                                {Categories.BabyProducts[0].BATHING_AND_SKIN_CARE?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
                             <ul>
                                 <div>BABY SAFETY</div>
-                                {Categories.BabyProducts[0].BABY_SAFETY?.map((item) => {
+                                {Categories.BabyProducts[0].BABY_SAFETY?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>

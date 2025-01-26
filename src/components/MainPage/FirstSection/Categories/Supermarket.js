@@ -20,17 +20,17 @@ const Supermarket = () => {
                         <Col className="column" lg='5'>
                             <ul>
                                 <div > HOUSEHOLD SUPPLIES </div>
-                                {Categories.supermarket[0].HOUSEHOLD_SUPPLIES?.map((item) => {
+                                {Categories.supermarket[0].HOUSEHOLD_SUPPLIES?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}> {item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}> {item.title}</Link></li>
                                     )
                                 })}
                             </ul>
                             <ul>
                                 <div>LAUNDRY</div>
-                                {Categories.supermarket[1].LAUNDRY?.map((item) => {
+                                {Categories.supermarket[1].LAUNDRY?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}> {item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}> {item.title}</Link></li>
                                     )
                                 })}
                             </ul>
@@ -38,9 +38,9 @@ const Supermarket = () => {
                         <Col className="column" lg='5'>
                             <ul>
                                 <div>HOUSEHOLD CLEANING</div>
-                                {Categories.supermarket[2].HOUSEHOLD_CLEANING?.map((item) => {
+                                {Categories.supermarket[2].HOUSEHOLD_CLEANING?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}> {item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}> {item.title}</Link></li>
                                     )
                                 })}
                             </ul>

@@ -18,17 +18,17 @@ const HealthBeauty = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div>PERSONAL CARE</div>
-                                {Categories.HealthBeauty[0].PERSONAL_CARE?.map((item) => {
+                                {Categories.HealthBeauty[0].PERSONAL_CARE?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
                             <ul>
                                 <div>SKIN CARE</div>
-                                {Categories.HealthBeauty[0].SKIN_CARE?.map((item) => {
+                                {Categories.HealthBeauty[0].SKIN_CARE?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
@@ -36,17 +36,17 @@ const HealthBeauty = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div>HAIR CARE</div>
-                                {Categories.HealthBeauty[0].HAIR_CARE?.map((item) => {
+                                {Categories.HealthBeauty[0].HAIR_CARE?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
                             <ul>
                                 <div>HEALTH CARE</div>
-                                {Categories.HealthBeauty[0].HEALTH_CARE?.map((item) => {
+                                {Categories.HealthBeauty[0].HEALTH_CARE?.map((item,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>

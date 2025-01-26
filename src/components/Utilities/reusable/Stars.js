@@ -6,9 +6,10 @@ function Stars({ stars, setStars }) {
   // console.log(emptyArray)
   return (
     <div className='stars'>
-      {[1, 2, 3, 4, 5].map((star) => {
+      {[1, 2, 3, 4, 5].map((star,key) => {
         return (
           <span
+          key={key}
             className='start'
             style={{
               cursor: 'pointer',

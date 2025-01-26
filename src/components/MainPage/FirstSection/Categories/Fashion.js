@@ -20,9 +20,9 @@ const Fashion = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div>WOMEN'S FASHION</div>
-                                {Categories.Fashion[0].WOMENS_FASHION?.map((item) => {
+                                {Categories.Fashion[0].WOMENS_FASHION?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
@@ -30,9 +30,9 @@ const Fashion = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div>MEN'S FASHION</div>
-                                {Categories.Fashion[0].MENS_FASHION?.map((item) => {
+                                {Categories.Fashion[0].MENS_FASHION?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>
@@ -40,9 +40,9 @@ const Fashion = () => {
                         <Col className="column" lg='4'>
                             <ul>
                                 <div><Link to='fashion/air-fresheners'>BABY FASHION</Link></div>
-                                {Categories.Fashion[0].BABY_FASHION?.map((item) => {
+                                {Categories.Fashion[0].BABY_FASHION?.map((item ,key) => {
                                     return (
-                                        <li><Link to={item.to}>{item.title}</Link></li>
+                                        <li key={key}><Link to={item.to}>{item.title}</Link></li>
                                     )
                                 })}
                             </ul>

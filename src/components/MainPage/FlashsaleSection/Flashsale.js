@@ -118,9 +118,9 @@ const Flaschsale = () => {
             {/* <button onClick={() => updateData()}>111</button> */}
             <div className='cards'>
                 {
-                    cards?.map((item) => {
+                    cards?.map((item, key) => {
                         return (
-                            <div className='fs-single-card2'>
+                            <div key={key} className='fs-single-card2'>
                                 <Link className='link' to={`/product-details/${item.id}`}>
                                     <img src={item.src} alt='cardimg1' width={'165px'} />
                                     <div>
