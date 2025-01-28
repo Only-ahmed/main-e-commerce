@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/MainPage/Footer/Footer';
 // import HomePage from './Pages/Home/HomePage';
 import Navbar from './components/Utilities/navbar/Navbar';
-import { BrowserRouter, Route, Routes, } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes, } from "react-router-dom";
 import MainPage from './components/MainPage/MainPage';
 // import Mmnn from './components/SecondPage/Mmnnnn';
 import Mmnnnn from './components/SecondPage/Mmnnnn';
@@ -31,7 +31,7 @@ function App() {
     <CartProvider>
       <Provider store={store} >
         <div className="App">
-          <BrowserRouter>
+          <HashRouter >
           <Navbar />
             <Mmnnnn />
             <Routes>
@@ -41,7 +41,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
           <Footer />
         </div>
       </Provider>
