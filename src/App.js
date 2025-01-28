@@ -32,10 +32,11 @@ function App() {
       <Provider store={store} >
         <div className="App">
           <BrowserRouter>
-          <Navbar />
+            <Navbar />
             <Mmnnnn />
             <Routes>
-              <Route path='/' element={<MainPage />} />
+              {/* <Route path='/' element={<MainPage />} /> */}
+              <Route index element={<MainPage />} />
               <Route path='/product-details/:id' element={<ProductDetails />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/login" element={<Login />} />
