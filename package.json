@@ -1,7 +1,7 @@
 {
   "name": "e-commerce",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "/",
   "main": "/",
   "dependencies": {
