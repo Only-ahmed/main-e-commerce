@@ -2,7 +2,7 @@
   "name": "e-commerce",
   "version": "0.1.0",
   "private": false,
-  "homepage": "/",
+  "homepage": "/fashion",
   "main": "/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
