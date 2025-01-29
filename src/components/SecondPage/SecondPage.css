@@ -555,6 +555,188 @@
     font-size: 14px;
 }
 
+@media (min-width: 320px) and (max-width: 410px) {
+    .whole-products {
+        width: 100%;
+        margin: 10px 0 20px 0;
+    }
+
+    .headerimg {
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.342);
+    }
+
+    .headerimg img {
+        width: 100%;
+        height: 140px !important;
+        border-radius: 6px;
+    }
+
+    .single-card2 {
+        background-color: white;
+        padding: 0px;
+        min-width: 155px !important;
+        width: 46% !important;
+        border-radius: 4px;
+        min-height: 300px !important;
+        height: 80% !important;
+        position: relative;
+        margin: 5px 4px;
+        box-shadow: 0px 0px 8px 0px #00000017;
+        /* z-index: 1; */
+        /* background-color: red; */
+    }
+
+    .single-card2 img {
+        min-width: 158px !important;
+        width: 100%;
+    }
+
+    .single-card2:hover {
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .info-div {
+        padding: 0 6px;
+        margin: 0px 0 55px 0;
+
+    }
+
+    .newprice {
+        position: relative;
+        font-size: 190px !important;
+    }
+
+    .oldprice {
+        font-size: 14px;
+        text-decoration: line-through;
+    }
+
+    .lower {
+        /* padding: 0px !important; */
+        /* margin: 0px !important; */
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    .product-rating {
+        width: 100%;
+        height: 200px;
+        padding: 0 10px;
+        margin: 10px 0;
+    }
+
+    .first-line {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 2px 2px;
+        padding: 6px 0px;
+        font-size: 14px !important;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.116);
+    }
+
+    .first-line span {
+        padding: 10px 4px !important;
+        font-size: 11px !important;
+        color: gray;
+    }
+
+    .first-line div {
+        height: 40px;
+    }
+
+    /* .fa {
+        background-color: rgba(128, 128, 128, 0.253);
+        border-radius: 0px 4px 4px 0;
+        height: 20px !important;
+        margin-bottom: 8px;
+
+    }
+
+    .first-line h6 {
+        background-color: rgba(128, 128, 128, 0.253);
+        border-radius: 4px 0 0 4px;
+    } */
+
+    .sort-dropdown-content {
+        height: fit-content !important;
+    }
+
+    .dropdown-content-div2 div {
+        /* padding: 15px 0; */
+        height: 30px !important;
+        background-color: white !important;
+
+    }
+
+    .dropdown2:hover+.sort-dropdown-content {
+        display: block;
+        position: absolute;
+        background-color: #f9f9f9 !important;
+        min-width: 180px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        top: 28px;
+        right: -10px;
+        text-align: center;
+        /* padding: 12px 16px; */
+        z-index: 1;
+    }
+
+    .invisible-button {
+        opacity: 1;
+        position: absolute;
+        top: 91.5% !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.342);
+        width: 95%;
+        padding: 8px 0;
+        border-radius: 6px;
+        background-color: #f68b1e;
+        color: white;
+        border: none;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .querry-buttons {
+        position: absolute;
+        display: flex;
+        /* flex-direction: row; */
+        width: fit-content;
+        height: fit-content;
+        bottom: 20px;
+        left: 25% !important;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .querry-button {
+        display: block;
+        /* bottom: 20px; */
+        /* left: 140px; */
+        /* left: 38%; */
+        background-color: black;
+        color: white;
+        border-radius: 10px 0px 0 10px;
+        width: 110px;
+        position: relative;
+    }
+
+    .querry-buttonn {
+        /* left: 140px; */
+        /* left: 58%; */
+        background-color: black;
+        color: white;
+        border-radius: 0px 10px 10px 0px;
+        width: fit-content;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .whole-page2 {

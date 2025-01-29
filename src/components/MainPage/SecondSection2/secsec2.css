@@ -53,7 +53,7 @@
         width: 100%;
         /* margin: auto; */
         padding: 4px 8px;
-        /* height: 150px; */
+        height: fit-content;
         border-radius: 6px;
         box-shadow: 0px;
         margin: 2px auto 10px auto;
@@ -65,11 +65,14 @@
 
     .imgsection2 {
         display: flex;
+        justify-content: center;
+        gap: 1px;
+        width: 100%;
     }
 
     .imgsection2 img {
-        width: 88px;
-        height: 60px;
+        width: 80px;
+        height: 73px;
         margin: 0 4px;
     }
 
@@ -89,16 +92,21 @@
         width: 100%;
         /* margin: auto; */
         padding: 4px 8px;
-        /* height: 150px; */
+        height: fit-content;
         border-radius: 6px;
         box-shadow: 0px;
         margin: 2px auto 10px auto;
     }
 
+    .imgsection2 {
+        gap: 1px;
+    }
+
     .imgsection2 img {
-        width: 78px !important;
-        height: 60px;
+        width: 80px !important;
+        height: 73px;
         margin: 0 2px;
+        width: 100% !important;
     }
 
     .disabledimg2 {
@@ -113,21 +121,24 @@
         width: 100%;
         /* margin: auto; */
         padding: 4px 8px;
-        /* height: 150px; */
+        height: fit-content;
         border-radius: 6px;
         box-shadow: 0px;
         margin: 2px auto 10px auto;
     }
 
-    .imgsection2 img {
-        width: 78px;
-        height: 60px;
-        margin: 0 4px;
+    .disabledimg2 {
+        display: flex;
+        gap: 10px !important;
     }
 
-    /* .disabledimg2 {
-        display: block;
-    } */
+    .imgsection2 img {
+        width: 82px;
+        height: 85px;
+        margin: 0 4px;
+        width: 100% !important;
+    }
+
 }
 
 @media (min-width: 600px) and (max-width: 1100px) {
@@ -136,7 +147,7 @@
         width: 100%;
         /* margin: auto; */
         padding: 4px 8px;
-        /* height: 150px; */
+        height: fit-content;
         border-radius: 6px;
         box-shadow: 0px;
         margin: 8px auto 10px auto;
@@ -148,6 +159,7 @@
 
     .imgsection2 {
         display: flex;
+        gap: 1px;
     }
 
     .imgsection2 img {

@@ -115,6 +115,7 @@
     color: rgba(245, 245, 245, 0.623);
     cursor: pointer;
 }
+
 .second-footer-insider ul li:hover {
     color: rgba(245, 245, 245, 0.541);
     cursor: pointer;
@@ -171,12 +172,12 @@
     }
 
     .mid {
-        width: 100%;
+        width: 100% !important;
     }
 
     .mid-insider {
-        width: fit-content;
-        margin: 2px 20px;
+        width: fit-content !important;
+        /* margin: 2px 20px; */
         display: flex;
         gap: 6px;
     }
@@ -188,7 +189,7 @@
 
 
     .mid button {
-        margin: 0 3px;
+        margin: 0 1px;
         padding: 5px;
         background-color: transparent;
         border: 1px solid white;
@@ -211,7 +212,7 @@
     }
 
     .inputdiv {
-        width: 400px !important;
+        min-width: 340px !important;
         margin: 4px 0px !important;
 
     }
@@ -226,6 +227,7 @@
         font-size: 14px !important;
         width: fit-content;
         margin: 0px 24px !important;
+        width: 100%;
 
     }
 

@@ -69,6 +69,39 @@
     padding: 0 !important;
 }
 
+@media (min-width: 320px) and (max-width: 400px) {
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .categories div {
+        padding: 2px 0px;
+        margin: 0 1px;
+    }
+
+    .categories div span {
+        padding: 10px 3px;
+        color: gray;
+    }
+
+    .categories div a {
+        /* width: 200px; */
+        padding: 10px 0px !important;
+        font-size: 13px;
+        text-decoration: none;
+        color: gray;
+    }
+
+    .mm {
+        background-color: white;
+        padding: 2px 0 !important;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+        border-radius: 4px;
+    }
+}
+
 @media (max-width: 600px) {
     .main-sec {
         height: fit-content;

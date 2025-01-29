@@ -264,7 +264,7 @@ const SecondPage = ({ ProductsPage, Categoties, Cat }) => {
                                     <div className='sort-dropdown' onClick={() => toggle()}  >
                                         <label className='dropdown2'>
                                             <h6> Sort by:<span>{sortTitles}</span></h6>
-                                            <span className='fa-solid fa-chevron-down'></span>
+                                            <span className='fa fa-solid fa-chevron-down'></span>
                                         </label>
                                         {/* <div className={show ? 'dropdown-content' : 'dropdown-content-hide'}> */}
                                         <div className='sort-dropdown-content' >
