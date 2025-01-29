@@ -31,7 +31,7 @@ function App() {
     <CartProvider>
       <Provider store={store} >
         <div className="App">
-          <HashRouter >
+          <BrowserRouter >
           <Navbar />
             <Mmnnnn />
             <Routes>
@@ -41,7 +41,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
             </Routes>
-          </HashRouter>
+          </BrowserRouter>
           <Footer />
         </div>
       </Provider>
